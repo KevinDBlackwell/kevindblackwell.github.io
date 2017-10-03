@@ -1,0 +1,97 @@
+.one {
+    background-color: mistyrose;
+    width: 100%;
+    height: 30px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    padding-top: 10px;
+    font-family: 'Quicksand', sans-serif;
+    z-index: 1000;
+}
+
+.two {
+    background-color: bisque;
+    height: 806px;
+    width: 1583px;
+    left: -8px;
+    position: relative;
+}
+
+.three {
+    background-color: antiquewhite;
+    height: 806px;
+    width: 1583px;
+    left: -8px;
+    /* top: -48px; */
+    position: relative;
+}
+
+body, .link {
+    color: peru;
+    text-decoration: none;
+}
+
+.link {
+    margin-left: 15%;
+}
+
+p {
+    font-family: 'Oswald', sans-serif;
+}
+
+.description {
+    width: 75%;
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+.First {
+    border-width: 0 0 0 15px;
+    border-color: salmon;
+    padding-left: 10px;
+    margin-left: 40px;
+}
+
+#Home {
+    background-color: black;
+    height: 786px;
+    width: 1583px;
+    position: relative;
+    /* top: -10px; */
+    left: -8px;
+}
+
+#About {
+   display: inline-block; 
+}
+
+.aboutPicture {
+    height: 500px;
+    width: 325px;
+    position: relative;
+    float: right;
+    top: -500px;
+    margin-right: 15px;
+}
+
+.header {
+    /* width: 45%; */
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.title {
+    margin-left: 600px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+.projectDisplay {
+    width: 50%;
+    margin-left: 460px;
+    position: relative;
+    display: inline-block;
+    margin-top: 15px;
+}
