@@ -95,3 +95,35 @@ p {
     display: inline-block;
     margin-top: 15px;
 }
+
+.galaxy {
+    background-color: black;
+    height: 795px;
+    width: 1583px;
+    position: relative;
+    /* top: -10px; */
+    /* left: -3px; */
+}
+
+#Contact {
+    top: 15px;
+}
+
+.contactme {
+    position: relative;
+    margin-top: 50px;
+    left: 0;
+    right: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: "lato", sans-serif;
+    font-weight: 300;
+    font-size: 50px;
+    /* letter-spacing: 10px; */
+    /* margin-top: -60px; */
+    padding-left: 10px;
+}
+
+.contactform {
+
+}
