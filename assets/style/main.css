@@ -30,6 +30,7 @@
 body, .link {
     color: peru;
     text-decoration: none;
+    font-family: 'Oswald', sans-serif;
 }
 
 .link {
@@ -37,12 +38,12 @@ body, .link {
 }
 
 p {
-    font-family: 'Oswald', sans-serif;
+    
 }
 
 .description {
-    width: 75%;
-    margin-left: 10px;
+    width: 55%;
+    margin-left: 350px;
     font-size: 25px;
 }
 
@@ -64,6 +65,8 @@ p {
 
 #About {
    display: inline-block; 
+   /* top: 1583px; */
+   background-image: url('assets/img/IMG_2110.JPG');
 }
 
 .aboutPicture {
@@ -71,7 +74,7 @@ p {
     width: 325px;
     position: relative;
     float: right;
-    top: -500px;
+    top: -1300px;
     margin-right: 15px;
 }
 
@@ -124,6 +127,40 @@ p {
     padding-left: 10px;
 }
 
-.contactform {
+.skills {
+    position: relative;
+    top: -600px;
+    margin-left: 60px;
+    font-size: 1.5pc;
+}
 
+#resume {
+    width: 318px;
+}
+
+#resumePhoto {
+    position: relative;
+    height: 149px;
+    width: 149px;
+    top: -1300px;
+    margin-left: 240px;
+    border-radius: 100%;
+}
+
+#resumedescription {
+    position: relative;
+    top: -1310px;
+    left: 250px;
+}
+
+#resumeDownload {
+    text-decoration: none;
+    color: peru;
+}
+
+#linkedinbadge {
+    position: relative;
+    top: -400px;
+    float: right;
+    margin-right: 60px;
 }
