@@ -24,18 +24,22 @@
     height: 806px;
     width: 1583px;
     left: -8px;
-    /* top: -48px; */
+    top: -525px;
     position: relative;
 }
 
-body, .link {
+body {
     color: peru;
     text-decoration: none;
     font-family: 'Oswald', sans-serif;
+    height: 6356px;
 }
 
 .link {
     margin-left: 15%;
+    color: peru;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
 }
 
 p {
@@ -110,7 +114,9 @@ p {
 }
 
 #Contact {
-    top: 15px;
+    top: -527px;
+    left: -15px;
+    width: 1590px;
 }
 
 .contactme {
