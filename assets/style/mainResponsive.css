@@ -1,0 +1,21 @@
+/* Tablet */
+
+@media (max-width:800px) {
+    body, .one, .two, .three, .galaxy {
+        max-width: 100%;
+    }
+
+    nav {
+        max-width: 100%;
+   }
+
+   .link {
+       margin-left: .5%;
+       margin-right: 3%;
+   }
+
+   #title {
+       font-size: 20px;
+   }
+
+}

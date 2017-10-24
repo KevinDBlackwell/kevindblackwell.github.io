@@ -14,7 +14,7 @@
     background-color: bisque;
     /* background-image: url('/assets/img/IMG_2110b.JPG'); */
     height: 806px;
-    width: 1583px;
+    width: 100%;
     left: -8px;
     position: relative;
 }
@@ -22,7 +22,7 @@
 .three {
     background-color: antiquewhite;
     height: 806px;
-    width: 1583px;
+    width: 100%;
     left: -8px;
     top: -525px;
     position: relative;
@@ -32,7 +32,7 @@ body {
     color: peru;
     text-decoration: none;
     font-family: 'Oswald', sans-serif;
-    height: 6356px;
+    width: 100%;
 }
 
 .link {
@@ -177,3 +177,42 @@ p {
     color: peru !important;
     z-index: 5;
 }
+
+.scrollbar {
+	margin-left: 22px;
+	float: left;
+	height: 300px;
+	width: 65px;
+	background: #F5F5F5;
+	overflow-y: scroll;
+	margin-bottom: 25px;
+}
+
+.force-overflow {
+	min-height: 450px;
+}
+
+#style-11::-webkit-scrollbar {
+	width: 10px;
+	background-color: #F5F5F5;
+}
+
+#style-11::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background: rgba(0,0,0,0.1);
+    border: 1px solid #ccc;
+  }
+  
+  #style-11::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: linear-gradient(left, #fff, #e4e4e4);
+    border: 1px solid #aaa;
+  }
+  
+  #style-11::-webkit-scrollbar-thumb:hover {
+    background: #fff;
+  }
+  
+  #style-11::-webkit-scrollbar-thumb:active {
+    background: linear-gradient(left, #22ADD4, #1E98BA);
+  }
