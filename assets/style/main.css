@@ -5,6 +5,14 @@ html, body {
     margin: 0 0 0 0;
 }
 
+#Mobile {
+    display: none;
+}
+
+#Tablet {
+    display: none;
+}
+
 .one {
     background-color: mistyrose;
     width: 100%;
