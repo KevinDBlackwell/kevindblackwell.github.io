@@ -28,7 +28,7 @@ html, body {
 .two {
     background-color: bisque;
     /* background-image: url('/assets/img/IMG_2110b.JPG'); */
-    height: 806px;
+    height: 100%;
     width: 100%;
     /* left: -8px; */
     position: relative;
@@ -36,7 +36,7 @@ html, body {
 
 .three {
     background-color: antiquewhite;
-    height: 806px;
+    height: 100%;
     width: 100%;
     /* left: -8px; */
     top: -525px;
@@ -64,8 +64,8 @@ p {
 
 .description {
     width: 55%;
-    margin-left: 350px;
-    font-size: 25px;
+    margin-left: 20%;
+    font-size: 150%;
 }
 
 .First {
@@ -77,8 +77,8 @@ p {
 
 #Home {
     background-color: black;
-    height: 786px;
-    width: 1583px;
+    height: 100%;
+    width: 100%;
     position: relative;
     /* top: -10px; */
     /* left: -8px; */
@@ -87,12 +87,12 @@ p {
 #About {
    display: inline-block; 
    /* top: 1583px; */
-   background-image: url('assets/img/IMG_2110.JPG');
+   /* background-image: url('assets/img/IMG_2110.JPG'); */
 }
 
 .aboutPicture {
-    height: 500px;
-    width: 325px;
+    height: 200%;
+    width: 20%;
     position: relative;
     float: right;
     top: -1100px;

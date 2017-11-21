@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="assets/style/mainResponsive.css">
         <link rel="stylesheet" href="assets/style/galaxy.css">
         <link rel="stylesheet" href="assets/style/projectGallery.css">  
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Oswald|Quicksand" rel="stylesheet">
         <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
         <link rel="icon" href="http://cdn.mysitemyway.com/etc-mysitemyway/icons/legacy-previews/icons/glowing-purple-neon-icons-alphanumeric/112635-glowing-purple-neon-icon-alphanumeric-letter-k.png">
@@ -130,6 +131,15 @@
                     </div>
 
                     <div class="view view-first">  
+                        <img src="assets/img/KataTap.PNG" />  
+                        <div class="mask">  
+                        <h2>KataTap</h2>  
+                        <p>A beat machine that responds to keystrokes. Built using Javascript, jQuery, paper.js and canvas.</p>
+                            <a href="https:///kevindblackwell.github.io/Katatap/" class="info">Launch Site</a>  
+                        </div>
+                    </div>
+
+                    <div class="view view-first">  
                         <img src="http://verysmartbrothas.com/images/2015/07/erykah.jpg" />  
                         <div class="mask">  
                         <h2>MediMatch</h2>  
@@ -194,30 +204,109 @@
         </section>
 
         <section id="Mobile">
-            <nav class="one">
-                    <a class="link" href="#Home">Home</a>
-                    <a class="link" href="#About">About</a>
-                    <a class="link" href="#Projects">Projects</a>
-                    <a class="link" href="#Contact">Contact</a>
+            <div>    
+                <nav class="one">
+                        <a class="link" href="#HomeMobile">Home</a>
+                        <a class="link" href="#AboutMobile">About</a>
+                        <a class="link" href="#ProjectsMobile">Projects</a>
+                        <a class="link" href="#ContactMobile">Contact</a>
                 </nav>
-    
-                <div id="Home">
-                    <div class='galaxy'>
-                        <div id='stars'></div>
-                        <div id='stars2'></div>
-                        <div id='stars3'></div>
-                        <div id='title'>
-                        <span>
-                            KEVIN BLACKWELL
-                        </span>
-                        <br>
-                        <span>
-                            FULLSTACK WEB DEVELOPER
-                        </span>
-                        </div>
-                    </div>
+            </div>
+
+            <div id="HomeMobile">
+                <span id="TitleMobile">   
+                    <span>Kevin Blackwell</span>
+                    <br><br>
+                    <span>Full Stack Web Developer</span>
+                </span>
+            </div>
+
+            <div id="AboutMobile">
+                <p id="HeaderMobile">About Me</p>
+                <p id="AboutMe">
+                    My name is Kevin Blackwell. I am a STEM enthusiast with interest in all avenues 
+                    of science and technology. Growing up around a STEM centric family, specifically computer
+                    centric, I was always exposed to some kind of technology. At the age of 10, I learned
+                    Javascript and Java so that help for my dad run QA tests. At 13, I honed in on my skills of HTML 
+                    and CSS to build a deployable website for my aunt's bakery. At 17, I mastered Python, Ruby, and R 
+                    to build a software that'll allow me to check the efficacy of a certain chemotherapy against a 
+                    certain strain of breast cancer. Over the years, I've built my skills step by step, and I plan on 
+                    continuing to strengthen my coding skills for it is definitely one of my passions in life.
+                    <br><br>
+                    In my spare time, I'm typically playing some kind of instrument, singing, 
+                    playing some video games, or doing some self learning! You could also 
+                    catch me at a roller rink, skating with my skate squad. Also, 
+                    I am in love with exercising and anything involved with athletics!
+                    <br><br>
+                    <a id="LinkMobile" href="http://honors.njit.edu/news/njit-students-named-governor%E2%80%99s-stem-scholars/">Click here to read about my becoming <br> of a Governor's STEM Scholar!</a>
+                </p>
+            </div>
+
+            <div id="ProjectsMobile">
+                <p id=ProjectMobileHeader>Projects</p>
+
+                <div class="ProjectMobile">
+                    <p class="ProjectMobileTitle">JSChess</p>
+                    <img class="ProjectMobilePicture" src="assets/img/jsChessMobile.PNG" alt="Chess Game">
+                    <p class="ProjectMobileDesc">An AI-Programmed Chess Game using a predefined chess engine and pure Javascript.</p>
+                    <button class="MobileButton">
+                        <a class="ProjectMobileSiteLink" href="https://kevindblackwell.github.io/JSChess/">Launch Site</a>
+                    </button>
+                    <br><br>
+                    <button class="MobileButton">
+                        <a class="ProjectMobileSiteLink" href="#">Github</a>
+                    </button>
                 </div>
-                <p>This is mobile size</p>
+
+                <br>
+
+                <div class="ProjectMobile">
+                    <p class="ProjectMobileTitle">RGB Matching</p>
+                    <img class="ProjectMobilePicture" src="assets/img/colorGameMobile.PNG" alt="Color Game">
+                    <p class="ProjectMobileDesc">A RGB code color matching game built on pure jQuery.</p>
+                    <button class="MobileButton">
+                        <a class="ProjectMobileSiteLink" href="https://kevindblackwell.github.io/colorGame/">Launch Site</a>
+                    </button>
+                    <br><br>
+                    <button class="MobileButton">
+                        <a class="ProjectMobileSiteLink" href="#">Github</a>
+                    </button>
+                </div>
+
+                <br>
+
+                <div class="ProjectMobile">
+                    <p class="ProjectMobileTitle">Kestrel Dictionary</p>
+                    <img class="ProjectMobilePicture" src="assets/img/kestrelDictionaryMobile.PNG" alt="Kestrel Dictionary">
+                    <p class="ProjectMobileDesc">A full functioning CRUD app with user authentication built with express.js.</p>
+                    <button class="MobileButton">
+                        <a class="ProjectMobileSiteLink" href="https://afternoon-sands-95869.herokuapp.com">Launch Site</a>
+                    </button>
+                    <br><br>
+                    <button class="MobileButton">
+                        <a class="ProjectMobileSiteLink" href="#">Github</a>
+                    </button>
+                </div>
+
+                <br>
+
+                <div class="ProjectMobile">
+                    <p class="ProjectMobileTitle">KataTap</p>
+                    <img class="ProjectMobilePicture" src="assets/img/KataTapMobile.PNG" alt="KataTap">
+                    <p class="ProjectMobileDesc">A beat machine that responds to keystrokes. Built using Javascript, jQuery, paper.js and canvas.</p>
+                    <button class="MobileButton">
+                        <a class="ProjectMobileSiteLink" href="https:///kevindblackwell.github.io/Katatap/">Launch Site</a>
+                    </button>
+                    <br><br>
+                    <button class="MobileButton">
+                        <a class="ProjectMobileSiteLink" href="#">Github</a>
+                    </button>
+                </div>
+            </div>
+
+            <div id="ContactMobile">
+                <p style="font-size: 60px; color: blueviolet">Contact</p>
+            </div>
         </section>
         <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
         <script src="assets/js/scroll.js"></script>
