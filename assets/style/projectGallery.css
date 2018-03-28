@@ -1,6 +1,6 @@
 .view {
     width: 26vw;
-    height: 30vh;
+    height: 28vh;
     margin: 1vw;
     border: 1vw solid #fff;
     overflow: hidden;
@@ -12,7 +12,7 @@
 }
 .view .mask, .view .content {
     width: 26vw;
-    height: 30vh;
+    height: 28vh;
     position: absolute;
     overflow: hidden;
     top: 0;
