@@ -1,6 +1,6 @@
 html, body {
     max-width: 100%;
-    /* overflow-x: hidden; */
+    max-height: 100%;
     /* overflow-y: hidden; */
     margin: 0 0 0 0;
 }
@@ -15,7 +15,7 @@ html, body {
 
 .one {
     background-color: mistyrose;
-    width: 100%;
+    width: 100vw;
     height: 30px;
     position: fixed;
     top: 0px;
@@ -27,24 +27,22 @@ html, body {
 
 .two {
     background-color: bisque;
-    /* background-image: url('/assets/img/IMG_2110b.JPG'); */
-    height: 100%;
-    width: 100%;
-    /* left: -8px; */
+    background-image: url('../img/IMG_0251.JPG');
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
     position: relative;
 }
 
 .three {
     background-color: antiquewhite;
-    height: 100%;
-    width: 100%;
-    /* left: -8px; */
-    top: -525px;
+    height: 100vh;
+    width: 100vw;
     position: relative;
 }
 
 body {
-    color: peru;
+    color: black;
     text-decoration: none;
     font-family: 'Oswald', sans-serif;
     width: 100%; 
@@ -52,20 +50,17 @@ body {
 }
 
 .link {
-    margin-left: 15%;
-    color: peru;
+    color: black;
     text-decoration: none;
     font-family: 'Oswald', sans-serif;
-}
-
-p {
-    
+    text-align: center;
 }
 
 .description {
-    width: 55%;
-    margin-left: 20%;
-    font-size: 150%;
+    width: 55vw;
+    margin: 0 auto;
+    font-size: 1.5vw;
+    height: 70vh;
 }
 
 .First {
@@ -77,8 +72,8 @@ p {
 
 #Home {
     background-color: black;
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
     position: relative;
     /* top: -10px; */
     /* left: -8px; */
@@ -91,8 +86,8 @@ p {
 }
 
 .aboutPicture {
-    height: 200%;
-    width: 20%;
+    height: 50vh;
+    width: 32vh;
     position: relative;
     float: right;
     top: -1100px;
@@ -102,8 +97,9 @@ p {
 .header {
     /* width: 45%; */
     text-align: center;
-    font-size: 100px;
+    font-size: 3em;
     font-family: 'Quicksand', sans-serif;
+    padding-top: 2vh;
 }
 
 .title {
@@ -113,26 +109,21 @@ p {
 
 
 .projectDisplay {
-    width: 50%;
-    margin-left: 460px;
     position: relative;
-    display: inline-block;
+    display: flex;
     margin-top: 15px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .galaxy {
     background-color: black;
-    height: 795px;
-    width: 1583px;
+    height: 100vh;
+    width: 100vw;
     position: relative;
     /* top: -10px; */
     /* left: -3px; */
-}
-
-#Contact {
-    top: -527px;
-    /* left: -15px; */
-    width: 1590px;
 }
 
 .contactme {
@@ -152,9 +143,9 @@ p {
 
 .skills {
     position: relative;
-    top: -600px;
-    margin-left: 60px;
-    font-size: 1.5pc;
+    margin-left: 1.8vw;
+    font-size: 2.2vw;
+    margin-bottom: 1.8vw;
 }
 
 #resume {
@@ -192,4 +183,27 @@ p {
 .fa {
     color: peru !important;
     z-index: 5;
+}
+
+.skills ul li {
+    display: inline;
+}
+
+#aboutInformation {
+    background-color: rgba(255, 255, 255, .6);
+    width: 60vw;
+    margin-top: -6vh;
+    border-top-right-radius: 20%;
+    border-bottom-right-radius: 20%;
+    height: 100vh;
+}
+
+.linkNav {
+    margin: 0 30px 0 30px;
+    text-decoration: none;
+    color: peru;
+}
+
+nav {
+    text-align: center;
 }
