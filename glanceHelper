@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Glance Cobrowse Cross Domain Helper</title>
+  <script 
+    id="glance-cobrowse"
+    data-groupid="24541"
+    data-site="staging"
+    src="https://www.glancecdn.net/cobrowse/CobrowseJS.ashx?groupid=24541&site=staging&script=XDOM">
+  </script>
+</head>
+<body>
+</body>
+</html>
